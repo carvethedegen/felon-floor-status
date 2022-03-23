@@ -3,7 +3,7 @@ a specific collections floor price.
 No need for an API key.
 
 To make this work;
-- Create a file in the same directory as this file called; ".env"
+- Create a file in the same directory as bot.js called; ".env"
 - Insert the line; "DISCORD_BOT_TOKEN=YOURTOKENHERE"
 - Save the file
 - Do "npm i" in your terminal 
