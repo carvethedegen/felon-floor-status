@@ -1,19 +1,3 @@
-/*
-
-This is a simplistic discord bot that updates it's activity every 60 seconds to display 
-a specific collections floor price. 
-
-No need for an API key.
-
-To make this work;
-- Create a file in the same directory as this file called; ".env"
-- Insert the line; "DISCORD_BOT_TOKEN=YOURTOKENHERE"
-- Save the file
-- Do "npm i" in your terminal 
-- Run the the bot either with; "npm start" or "node bot.js"
-
-*/
-
 require("dotenv").config();
 const fetch = require("node-fetch");
 const Discord = require("discord.js");
