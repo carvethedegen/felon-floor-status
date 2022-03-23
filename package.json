@@ -1,0 +1,17 @@
+{
+  "name": "felon-floor-status",
+  "version": "1.0.0",
+  "description": "A simple discord bot that uses JS and DJS v13 to set it's status to a collections floor price.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "felon",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "node-fetch": "^2.6.7",
+    "dotenv": "^16.0.0"
+  }
+}
